@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+#warper{
+    width: 50%;
+    height: 95vh;
+    padding: 16px;
+    position: fixed;
+    left: 0;
+    
+}
+#bocode{
+    padding: 16px;
+    height: 100%;
+    overflow: auto;
+}
+#paper{
+    width: 50%;
+    height: 90vh;
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    top: 13px;
+    transform: perspective(2500px) rotateY(-20deg);
+    color: white;
+}
+.token.selector{
+ color: black;
+}
+.token.punctuation{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.function{
+    color: black;
+}
+#paper{
+    overflow: auto;
+    font-size: 16px;
+}
